@@ -308,35 +308,88 @@ color: #eee;
 	font-size:14px;
 }
 
-/* Default Skin
-.wmuGallery .wmuGalleryImage {
-	margin-bottom: 10px;
+body{
+    overflow-x: hidden;
 }
-.wmuSliderPrev, .wmuSliderNext {
-	position: absolute;
-	width:40px;
-	height:40px;
-	text-indent: -9999px;
-	background: url(../images/img-sprite.png)no-repeat 0px 0px ;
-	top:35%;
-	z-index: 2;
-	cursor: pointer;
+section.landing-page .wrapper{
+    /* position: absolute; */
+    height: 100vh;
+    padding-top: 150px;
+    top: 50%;
+    margin: auto;
 }
-.wmuSliderNext {
-	background-position:-360px 0px;
-	right: 0em;
-	top: 210px;
+section.landing-page .mouse-click{
+    margin: auto;
+    position: absolute;
+    bottom: 20px;
+    /* padding-top: 100px; */
 }
-.wmuSliderPrev {
-	background-position:-320px 0px;
-	left: 0em;
-	top: 210px;
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
 }
-.portfolio-section-top-row-right-grid {
-	padding-right: 0;
-	padding-left: 30px;
+section{
+    padding: 50px;
 }
-/*	Strip
+section.what-we-do .img-wrapper{
+    cursor: pointer;
+}
+section.services{
+    background-image: url('../../assets/backgrounds/s_image.jpg');
+    width: 100%;
+}
+section.portfolio .portfolio-item{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+section.portfolio .portfolio-item  .img-wrapper{
+width: 300px;
+overflow: hidden;
+}
+section.portfolio .portfolio-item  .img-wrapper img{
+ margin: auto;
+}
+section.portfolio .portfolio-item .item-title{
+    display: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    color: black;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: ease 1s;
+}
+section.contact-us{
+    color: white;
+    background-image: url('../../assets/backgrounds/c_image.jpg');
+}
+section.contact-us .title{
+    font-size: 1.5rem;
+}
+section.contact-us .form-wrapper{
+    padding: 20px 100px;
+}
+section.contact-us .form-wrapper input,
+section.contact-us .form-wrapper textarea{
+ 
+    border: 2px solid white;
+}
+section.contact-us .form-wrapper input::placeholder,
+section.contact-us .form-wrapper textarea::placeholder{
+
+    color: white;
+}
+section.contact-us .form-wrapper{
+    padding: 20px;
+
+}
+section.contact-us .form-wrapper input[type='submit']{
+margin: auto;
+}
 /*-----------------------------------------------------------------------------------*/
 .b-link-stripe{
 	position:relative;
