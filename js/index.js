@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".img-wrapper").click(function () {
+    $(".img-wrapper-1").click(function () {
       $(this).parent().children(".description").toggle(500);
     });
     $(".portfolio-item").hover(function () {

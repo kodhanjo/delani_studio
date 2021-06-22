@@ -7,7 +7,8 @@
 <title>Delani Studio</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
 <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="/js/easyResponsiveTabs.js">
+<link rel="stylesheet" href="./js/easyResponsiveTabs.js">
+<link rel="stylesheet" href="./js/index.js">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">	    
 <link rel="stylesheet"href="./vendor/bootstrap-material-design-dist/css/bootstrap-material-design.min.css"/>
 <script src="./js/index.js"></script>
@@ -164,6 +165,7 @@
       </div>
     </div>
   </section>
+  <br>
     <section class="portfolio">
         <div class="works-header">
 			<h3>PORTFOLIO</h3>
@@ -181,7 +183,7 @@
           </div>
           <div class="col-md-3">
             <div class="portfolio-item">
-              <div class="img-wrapper item-title_blur">
+              <div class="img-wrapper">
                 <img src="./assets/portfolio/work3.jpg" alt="image" />
               </div>
               <div class="item-title">
@@ -437,10 +439,18 @@
     $(".img-wrapper").click(function () {
       $(this).parent().children(".description").toggle(500);
     });
-    $(".portfolio-item").hover(function () {
-      $(this).children(".item-title").fadeToggle(1000);
-    });
+    // $(".portfolio-item").hover(function () {
+    //   $(this).children(".item-title").fadeToggle(1000);
+    // });
   });
+  //hover
+//   $( "img-wrapper" ).toggle(
+//   function() {
+//     $( this ).addClass( "image-description" );
+//   }, function() {
+//     $( this ).removeClass( "image-description" );
+//   }
+// );
     </script>
 </body>
 </html>
