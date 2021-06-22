@@ -433,14 +433,12 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
     <script>
-        $(document).ready(function () {
-    $(".img-wrapper").click(function () {
-      $(this).parent().children(".description").toggle(500);
+        $(document).ready(function(){
+      $(".img-wrapper text-center").hover(function(){
+        $(".description text-justify").toggle();
+      });
+      event.preventDefault();
     });
-    $(".portfolio-item").hover(function () {
-      $(this).children(".item-title").fadeToggle(1000);
-    });
-  });
     </script>
 </body>
 </html>
