@@ -383,8 +383,8 @@ section.portfolio .portfolio-item .item-title:hover{
 	opacity: 1;
 }
 section.contact-us{
-    color: white;
-    background-image: url('../../assets/backgrounds/c_image.jpg');
+    color: rgba(255, 255, 255, 0.986);
+    background-image: url('../assets/backgrounds/c_image.jpg');
 }
 section.contact-us .title{
     font-size: 1.5rem;
