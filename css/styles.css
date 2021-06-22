@@ -65,11 +65,11 @@ body{
 .services-header{
 color: #eee;
 }
-.contact{
+/* .contact{
 	background: url(../assets/backgrounds/c_image.jpg);
 	min-height: 300px;
 	background-position: center;
-	padding: 0px;
+	padding: 0px; */
 }
 
 /* Effect 5: same word slide in */
@@ -383,6 +383,7 @@ section.portfolio .portfolio-item .item-title:hover{
 	opacity: 1;
 }
 section.contact-us{
+	font-size: 2em;
     color: rgba(255, 255, 255, 0.986);
     background-image: url('../assets/backgrounds/c_image.jpg');
 }
@@ -684,109 +685,7 @@ padding:30px 0;
 	height:40px;
 	background: url("../images/img-sprite.png") no-repeat 0px 0px;
 	display:inline-block;
-}
-.social-icon i:hover{
-    transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
-.social-icon a i.icon1{
-	background-position:0px 0px;
-}
-.social-icon a i.icon1:hover{
-	background-position:0px -40px;
-}
-.social-icon a i.icon2{
-	background-position:-40px 0px;
-}
-.social-icon a i.icon2:hover{
-	background-position:-40px -40px;
-}
-.social-icon a i.icon3{
-	background-position:-80px 0px;
-}
-.social-icon a i.icon3:hover{
-	background-position:-80px -40px;
-}
-.social-icon i.icon4{
-	background-position:-120px 0px;
-}
-.social-icon a i.icon4:hover{
-	background-position:-120px -40px;
-}
-.social-icon i.icon5{
-	background-position:-160px 0px;
-}
-.social-icon a i.icon5:hover{
-	background-position:-160px -40px;
-}
-.social-icon i.icon6{
-	background-position:-200px 0px;
-}
-.social-icon a i.icon6:hover{
-	background-position:-200px -40px;
-}
-.social-icon i.icon7{
-	background-position:-240px 0px;
-}
-.social-icon a i.icon7:hover{
-	background-position:-240px -40px;
-}
-.social-icon i.icon8{
-	background-position:-280px 0px;
-}
-.social-icon a i.icon8:hover{
-	background-position:-280px -40px;
-}
-.contact {
-	padding-bottom:4em;
-border-bottom: 1px solid#020202;
-}
-.contactgrid {
-padding-bottom: 2em;
-}
-.contactgrid input[type="text"] {
-	width: 100%;
-	background: none;
-	outline: none;
-	border: white;
-	border-bottom: 1px solid#d5d6d7;
-	font-size: 15px;
-	color: #d5d6d7;
-	text-transform: capitalize;
-	padding: 10px 0;
-}
-
-.contactgrid1 textarea  {
-	width: 100%;
-	background: none;
-	outline: none;
-	border: none;
-	resize: none;
-	border-bottom: 1px solid#d5d6d7;
-	font-size: 15px;
-	color: #d5d6d7;
-	text-transform: capitalize;
-	padding: 10px 0;
-	height: 2.8em;
-}
-.contactgrid2 {
-	padding: 2em 0 0 17em;
-}
-.footer-bottom {
 	
-	text-align: center;
-	padding-top: 40px;
-}
-.footer-bottom p {
-	font-size: 17px;
-	color: #050505;
-	font-weight: 400;
-}
-
-    
        /*-- responsive-mediaquries --*/
 		@media(max-width:1080px){
 			.grid_box a:hover .zoom-icon {
